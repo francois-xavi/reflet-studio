@@ -1,0 +1,12 @@
+{
+  "name": "reflet-studios",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reflet Studios — premium photography & visual stories, Abomey-Calavi, Bénin",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site — no build required. Deploy the folder as-is.'",
+    "preview": "npx serve ."
+  }
+}
