@@ -5,7 +5,7 @@
    ============================================================ */
 
 export const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=2000&q=80",
+  hero: "./src/images/hero-bg.png",
   portrait:
     "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1200&q=80",
   event:
@@ -14,8 +14,7 @@ export const IMAGES = {
     "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
   brand:
     "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=80",
-  portrait2:
-    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80",
+  portrait2:"./src/images/portrait.png",
   event2:
     "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
   brand2:
@@ -79,7 +78,7 @@ export const GALLERY_ALT = {
     "Portrait studio sur fond neutre — image d'illustration",
     "Portrait masculin en lumière douce — image d'illustration",
     "Portrait artistique en clair-obscur — image d'illustration",
-    "Portrait corporate en studio — image d'illustration",
+    "Portrait d'entreprise en studio — image d'illustration",
   ],
   events: [
     "Ambiance de soirée — image d'illustration",
@@ -99,11 +98,11 @@ export const GALLERY_ALT = {
   ],
   brands: [
     "Photographie produit en studio — image d'illustration",
-    "Mise en scène de produit lifestyle — image d'illustration",
+    "Mise en scène de produit style de vie — image d'illustration",
     "Photographie pour marque de boisson — image d'illustration",
     "Accessoire mode sur fond neutre — image d'illustration",
     "Sneaker en photographie publicitaire — image d'illustration",
-    "Casque audio en packshot — image d'illustration",
+    "Casque audio en photo produit — image d'illustration",
   ],
 };
 

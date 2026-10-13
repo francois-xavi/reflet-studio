@@ -36,23 +36,23 @@
         <span class="nav__logo-sub">STUDIOS</span>
       </a>
       <nav class="nav__links" aria-label="Navigation principale">
-        <a href="./work.html" class="nav__link">Work</a>
+        <a href="./work.html" class="nav__link">Portfolio</a>
         <a href="./services.html" class="nav__link">Services</a>
-        <a href="./about.html" class="nav__link">About</a>
+        <a href="./about.html" class="nav__link">À propos</a>
         <a href="./contact.html" class="nav__link">Contact</a>
       </nav>
-      <a href="./contact.html" class="btn btn--small nav__cta">Start a project</a>
+      <a href="./contact.html" class="btn btn--small nav__cta">Démarrer un projet</a>
       <button class="nav__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </header>
 
     <div class="mobile-menu" id="mobileMenu">
-      <a href="./work.html">Work</a>
+      <a href="./work.html">Portfolio</a>
       <a href="./services.html">Services</a>
-      <a href="./about.html">About</a>
+      <a href="./about.html">À propos</a>
       <a href="./contact.html">Contact</a>
-      <a href="./contact.html" class="btn">Start a project</a>
+      <a href="./contact.html" class="btn">Démarrer un projet</a>
     </div>
 
     <main id="main">
@@ -60,12 +60,12 @@
       <section class="hero" id="hero" aria-label="Introduction">
         <div class="hero__media">
           <!-- Image d'illustration — à remplacer par une réalisation de Reflet Studios -->
-          <div class="hero__img" id="heroImg" role="img" aria-label="Photographie d'illustration — portrait en lumière latérale"></div>
+          <div class="hero__img" id="heroImg" data-img="hero" role="img" aria-label="Photographie d'illustration — portrait en lumière latérale"></div>
           <div class="hero__veil"></div>
           <div class="hero__sweep" id="heroSweep" aria-hidden="true"></div>
         </div>
         <div class="hero__content">
-          <p class="label hero__label">Photography &amp; Visual Stories — Abomey-Calavi, Bénin</p>
+          <p class="label hero__label">Photographie &amp; récits visuels — Abomey-Calavi, Bénin</p>
           <h1 class="hero__title">
             <span class="hero__title-line">
               <span class="hero__title-word">REFLET</span>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="hero__scroll" aria-hidden="true">
-          <span class="label">Scroll</span>
+          <span class="label">Défiler</span>
           <span class="hero__scroll-line"></span>
         </div>
       </section>
@@ -110,17 +110,17 @@
           </div>
 
           <div class="portfolio__grid">
-            <a href="./work.html#portraits" class="p-card p-card--tall reveal" data-cursor="View" aria-label="Portraits — explorer la galerie">
+            <a href="./work.html#portraits" class="p-card p-card--tall reveal" data-cursor="Voir" aria-label="Portraits — explorer la galerie">
               <div class="p-card__media" data-img="portrait" role="img" aria-label="Image d'illustration — portrait"></div>
               <div class="p-card__overlay"></div>
               <div class="p-card__meta">
                 <h3 class="p-card__title">Portraits</h3>
-                <p class="p-card__phrase">The person behind the pose.</p>
-                <span class="p-card__tag label">Studio · Lifestyle · Corporate</span>
+                <p class="p-card__phrase">La personne derrière la pose.</p>
+                <span class="p-card__tag label">Studio · Style de vie · Entreprise</span>
               </div>
             </a>
 
-            <a href="./work.html#events" class="p-card reveal" data-cursor="View" aria-label="Événements — explorer la galerie">
+            <a href="./work.html#events" class="p-card reveal" data-cursor="Voir" aria-label="Événements — explorer la galerie">
               <div class="p-card__media" data-img="event" role="img" aria-label="Image d'illustration — événement"></div>
               <div class="p-card__overlay"></div>
               <div class="p-card__meta">
@@ -130,7 +130,7 @@
               </div>
             </a>
 
-            <a href="./work.html#weddings" class="p-card reveal" data-cursor="View" aria-label="Mariages — explorer la galerie">
+            <a href="./work.html#weddings" class="p-card reveal" data-cursor="Voir" aria-label="Mariages — explorer la galerie">
               <div class="p-card__media" data-img="wedding" role="img" aria-label="Image d'illustration — mariage"></div>
               <div class="p-card__overlay"></div>
               <div class="p-card__meta">
@@ -140,13 +140,13 @@
               </div>
             </a>
 
-            <a href="./work.html#brands" class="p-card p-card--wide reveal" data-cursor="View" aria-label="Marques et entreprises — explorer la galerie">
+            <a href="./work.html#brands" class="p-card p-card--wide reveal" data-cursor="Voir" aria-label="Marques et entreprises — explorer la galerie">
               <div class="p-card__media" data-img="brand" role="img" aria-label="Image d'illustration — photographie de marque"></div>
               <div class="p-card__overlay"></div>
               <div class="p-card__meta">
                 <h3 class="p-card__title">Marques &amp; entreprises</h3>
                 <p class="p-card__phrase">Donner à votre image un caractère.</p>
-                <span class="p-card__tag label">Produit · Branding · Éditorial</span>
+                <span class="p-card__tag label">Produit · Image de marque · Éditorial</span>
               </div>
             </a>
           </div>
@@ -171,7 +171,7 @@
               <div class="service__body">
                 <span class="service__num label">01</span>
                 <h3 class="service__title">Portraits</h3>
-                <p class="service__for">For people with something to express.</p>
+                <p class="service__for">Pour celles et ceux qui ont quelque chose à exprimer.</p>
                 <p class="service__desc">
                   Artistes, dirigeants, créateurs, particuliers. Une séance pensée
                   pour révéler une présence et une personnalité — pas un simple
@@ -191,7 +191,7 @@
               <div class="service__body">
                 <span class="service__num label">02</span>
                 <h3 class="service__title">Événements</h3>
-                <p class="service__for">For moments that should never feel ordinary.</p>
+                <p class="service__for">Pour les instants qui ne doivent jamais être ordinaires.</p>
                 <p class="service__desc">
                   Mariages, cérémonies, galas, conférences, lancements. Nous
                   préservons l'énergie, les regards et les moments forts qui font
@@ -211,7 +211,7 @@
               <div class="service__body">
                 <span class="service__num label">03</span>
                 <h3 class="service__title">Marques</h3>
-                <p class="service__for">For businesses that want to be remembered.</p>
+                <p class="service__for">Pour les marques qui veulent être retenues.</p>
                 <p class="service__desc">
                   Restaurants, mode, institutions, startups. Une imagerie
                   commerciale et publicitaire qui donne à votre marque une image
@@ -219,7 +219,7 @@
                 </p>
                 <ul class="service__includes">
                   <li>Direction artistique</li>
-                  <li>Photo produit &amp; lifestyle</li>
+                  <li>Photo produit &amp; style de vie</li>
                   <li>Contenus pour réseaux sociaux</li>
                 </ul>
                 <a href="./contact.html" class="btn btn--ghost">Demander un devis</a>
@@ -242,14 +242,14 @@
           <div class="section-head section-head--center">
             <p class="label reveal">L'expérience Reflet</p>
             <h2 class="section-title reveal">
-              More than a shoot.<br /><em>A visual experience.</em>
+              Plus qu'une séance.<br /><em>Une expérience visuelle.</em>
             </h2>
           </div>
 
           <div class="process__steps">
             <div class="process__step reveal">
               <span class="process__num" aria-hidden="true">01</span>
-              <h3 class="process__title">Understand</h3>
+              <h3 class="process__title">Comprendre</h3>
               <p class="process__desc">
                 Comprendre la personne, la marque ou l'événement. Écouter avant
                 de regarder.
@@ -257,7 +257,7 @@
             </div>
             <div class="process__step reveal">
               <span class="process__num" aria-hidden="true">02</span>
-              <h3 class="process__title">Create</h3>
+              <h3 class="process__title">Créer</h3>
               <p class="process__desc">
                 Construire une direction visuelle cohérente. Lumière, cadrage,
                 intention.
@@ -265,7 +265,7 @@
             </div>
             <div class="process__step reveal">
               <span class="process__num" aria-hidden="true">03</span>
-              <h3 class="process__title">Reveal</h3>
+              <h3 class="process__title">Révéler</h3>
               <p class="process__desc">
                 Livrer des images qui expriment réellement l'histoire — pas
                 seulement ce qui a été vu.
@@ -336,12 +336,12 @@
         <div class="cta__bg" data-img="cta" role="img" aria-label="Image d'illustration — appareil photo en studio"></div>
         <div class="cta__veil"></div>
         <div class="container cta__inner">
-          <p class="label reveal">Have a story in mind?</p>
+          <p class="label reveal">Une histoire en tête ?</p>
           <h2 class="cta__title reveal">
-            Tell us what you want<br /><em>to reveal.</em>
+            Dites-nous ce que vous voulez<br /><em>révéler.</em>
           </h2>
           <div class="cta__actions reveal">
-            <a href="./contact.html" class="btn btn--solid">Start a conversation</a>
+            <a href="./contact.html" class="btn btn--solid">Commencer la conversation</a>
             <a
               href="https://wa.me/22991460303?text=Bonjour%20Reflet%20Studios%2C%20je%20souhaite%20vous%20parler%20d%E2%80%99un%20projet%20photo%20ou%20vid%C3%A9o."
               class="btn btn--ghost"
@@ -364,9 +364,9 @@
         <div class="footer__col">
           <p class="label">Navigation</p>
           <a href="./index.html">Accueil</a>
-          <a href="./work.html">Work</a>
+          <a href="./work.html">Portfolio</a>
           <a href="./services.html">Services</a>
-          <a href="./about.html">About</a>
+          <a href="./about.html">À propos</a>
           <a href="./contact.html">Contact</a>
         </div>
         <div class="footer__col">
